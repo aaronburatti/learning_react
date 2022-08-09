@@ -12,10 +12,13 @@
 <body>
     <div id="root"></div>
     <script type="text/babel">
+        let thirdDay = "Wednesday";
+        let fourthDay = "Thursday";
         ReactDOM.render(
             <ul>
-                <li>Monday</li>
-                <li>Tuesday</li>
+                <li>{thirdDay}</li>
+                <li>{fourthDay}</li>
+                <li>{thirdDay.length}</li>
             </ul>,
             document.getElementById("root")
             );
